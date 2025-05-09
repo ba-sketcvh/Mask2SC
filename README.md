@@ -1,7 +1,7 @@
 # Protocol for integrating orthogonal information with Xenium data at single-cell resolution
 ![STAR_AI_Template-01](https://github.com/user-attachments/assets/c0a01923-6ba4-4e3a-a2f1-6cd7ceec8d35)
 
-This includes all the code used in the manuscript "Protocol for integrating orthogonal information with Xenium data at single-cell resolution".
+This includes all the code used in the manuscript "Protocol for integrating external information with Xenium data at single-cell resolution".
 
 The dataset used in the protocol can be found here:
 

@@ -5,12 +5,14 @@ This includes all the code used in the manuscript "Protocol for integrating exte
 
 The dataset used in the protocol can be found here:
 
-1. Image Registration 
+1. Environment Setup
+    - **environment.yml**: YAML file for setting up Python packages
+   
+3. Image Registration 
     - **IHC Channel Separation.groovy**: Extracts IHC channels as individual .tiff files 
     - **Binary Mask Creation.groovy**: Creates a binary mask from annotations    
     
-
-2. Integration
+4. Integration
      - **Mean_Signal_Workflow.ipynb**: Calculates the mean intensity of the IHC channel/mask of each cell
      - **Image_Gen_Protocol.ipynb**: Visualizes the integrated data 
 

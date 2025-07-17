@@ -3,7 +3,7 @@
 
 This includes all the code used in the manuscript "Protocol for integrating external information with Xenium data at single-cell resolution".
 
-The dataset used in the protocol can be found here:
+The dataset used in the protocol can be found here: https://zenodo.org/records/15367950
 
 1. Environment Setup
     - **environment.yml**: YAML file for setting up Python packages

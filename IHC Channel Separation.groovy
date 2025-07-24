@@ -5,11 +5,11 @@ import java.awt.image.BufferedImage
 import javax.imageio.ImageIO
 import java.io.File
 
-def imageData = getCurrentImageData()
-def server = imageData.getServer()
-
 // Define the channels to extract (zero-based indexing: 5 = 6th channel, 6 = 7th channel)
 def channelsToExtract = [5, 6]
+
+def imageData = getCurrentImageData()
+def server = imageData.getServer()
 
 def outputDir = buildFilePath(PROJECT_BASE_DIR, "Exported_Channels")
 mkdirs(outputDir)

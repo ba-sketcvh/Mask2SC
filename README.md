@@ -13,6 +13,6 @@ The dataset used in the protocol can be found here: https://zenodo.org/records/1
     - **Binary Mask Creation.groovy**: Creates a binary mask from annotations    
     
 4. Integration
-     - **Mean_Signal_Workflow.ipynb**: Calculates the mean intensity of the IHC channel/mask of each cell
-     - **Image_Gen_Protocol.ipynb**: Visualizes the integrated data 
+     - **complete_python_code.ipynb**: Complete Python code for integration and visualization of IHC images and H&E binary masks
+   
 

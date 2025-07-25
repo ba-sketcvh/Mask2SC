@@ -10,7 +10,7 @@ This repository includes all the code used in the manuscript
 
 The dataset used in the protocol can be found here: https://zenodo.org/records/15367950
 
-1. Environment Setup
+1. Setup of python
     - **environment.yml**: YAML file for setting up Python packages
     - **Install conda and add conda to path**
     - **Setup environment with either method**
@@ -35,11 +35,11 @@ The dataset used in the protocol can be found here: https://zenodo.org/records/1
        conda install -c conda-forge squidpy
        ```
       
-3. Image Registration 
+2. Image Registration 
     - **IHC Channel Separation.groovy**: Extracts IHC channels as individual .tiff files 
     - **Binary Mask Creation.groovy**: Creates a binary mask from annotations    
     
-4. Integration
+3. Integration
      - **complete_python_code.ipynb**: Complete Python code for integration and visualization of IHC images and H&E binary masks
    
 

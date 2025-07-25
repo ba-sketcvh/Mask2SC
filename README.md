@@ -1,5 +1,7 @@
 # Protocol for integrating external information with Xenium data at single-cell resolution
-<img src="https://github.com/user-attachments/assets/c0a01923-6ba4-4e3a-a2f1-6cd7ceec8d35" alt="STAR_AI_Template-01" width="600"/>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c0a01923-6ba4-4e3a-a2f1-6cd7ceec8d35" alt="STAR_AI_Template-01" width="400"/>
+</div>
 
 ![STAR_AI_Template-01](https://github.com/user-attachments/assets/c0a01923-6ba4-4e3a-a2f1-6cd7ceec8d35)
 

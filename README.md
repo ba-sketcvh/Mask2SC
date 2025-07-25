@@ -14,15 +14,15 @@ The dataset used in the protocol can be found here: https://zenodo.org/records/1
 - **[QuPath](https://qupath.github.io/)**: Open-source software for digital pathology image analysis.
 - **[Fiji](https://fiji.sc/)**: A distribution of ImageJ focused on biological-image analysis.
 - **[Warpy](https://imagej.net/plugins/bdv/warpy/warpy)**: Tool for image registration and warping.
-- 
+ 
 ## 2. Setup of python environment
-    - **environment.yml**: YAML file for setting up Python packages
-    - **Install conda and add conda to path**
-    - **Setup environment with either method**
+- **environment.yml**: YAML file for setting up Python packages
+- **Install conda and add conda to path**
+- **Setup environment with either method**
       
-       **Method 1: Automatic installation**
+  **Method 1: Automatic installation**
    
-      In Bash:
+  In Bash:
        ```bash
        git clone https://github.com/ba-sketcvh/Mask2SC.git
        cd Mask2SC
@@ -30,9 +30,9 @@ The dataset used in the protocol can be found here: https://zenodo.org/records/1
        conda activate mask2sc
        ```
 
-       **Method 2: Manual installation**
+  **Method 2: Manual installation**
 
-       In Bash:   
+  In Bash:   
        ```bash
        conda create -n mask2sc
        conda activate mask2sc

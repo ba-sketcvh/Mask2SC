@@ -11,6 +11,7 @@ The dataset used in the protocol can be found here: https://zenodo.org/records/1
     - **Setup environment with either method**
       
       **Method 1: Automatic installation**
+      
       ```bash
       git clone https://github.com/ba-sketcvh/Mask2SC.git
       cd Mask2SC
@@ -19,6 +20,7 @@ The dataset used in the protocol can be found here: https://zenodo.org/records/1
       ```
 
       **Method 2: Manual installation**
+      
       ```bash
       conda create -n mask2sc
       conda activate mask2sc

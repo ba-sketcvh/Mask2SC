@@ -10,15 +10,15 @@ The dataset used in the protocol can be found here: https://zenodo.org/records/1
     - Install conda and add conda to path
       -- Method 1: Automatic installation
    
-        ````bash
+        ```bash
             git clone https://github.com/ba-sketcvh/Mask2SC.git
             cd Mask2SC
             conda env create -n mask2sc --file environment.yml
             conda activate mask2sc
         ```
-         -- Method 2: Manual installation
+      -- Method 2: Manual installation
    
-        ````bash
+        ```bash
             conda create -n mask2sc
             conda activate mask2sc
             pip install numpy pandas geopandas imageio shapely rasterio affine matplotlib scanpy 

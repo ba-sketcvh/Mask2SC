@@ -5,12 +5,17 @@
 
 <br>
 
-This repository includes all the code used in the manuscript 
-**"Protocol for integrating external information with Xenium data at single-cell resolution"**, available [here]:(#) .
+# This repository includes all the code used in the manuscript 
+# **"Protocol for integrating external information with Xenium data at single-cell resolution"**, available [here]:(#) .
 
 The dataset used in the protocol can be found here: https://zenodo.org/records/15367950
 
-1. Setup of python
+## 1. Installation of Qupath, Fiji, and Warpy.
+- **[QuPath](https://qupath.github.io/)**: Open-source software for digital pathology image analysis.
+- **[Fiji](https://fiji.sc/)**: A distribution of ImageJ focused on biological-image analysis.
+- **[Warpy](https://imagej.net/plugins/bdv/warpy/warpy)**: Tool for image registration and warping.
+- 
+## 2. Setup of python environment
     - **environment.yml**: YAML file for setting up Python packages
     - **Install conda and add conda to path**
     - **Setup environment with either method**
@@ -35,11 +40,11 @@ The dataset used in the protocol can be found here: https://zenodo.org/records/1
        conda install -c conda-forge squidpy
        ```
       
-2. Image Registration 
+## 3. Image Registration 
     - **IHC Channel Separation.groovy**: Extracts IHC channels as individual .tiff files 
     - **Binary Mask Creation.groovy**: Creates a binary mask from annotations    
     
-3. Integration
+## 4. Integration
      - **complete_python_code.ipynb**: Complete Python code for integration and visualization of IHC images and H&E binary masks
    
 

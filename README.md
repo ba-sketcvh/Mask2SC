@@ -23,28 +23,28 @@ The dataset used in the protocol can be found here: https://zenodo.org/records/1
   **Method 1: Automatic installation**
    
   In Bash:
-       ```bash
-       git clone https://github.com/ba-sketcvh/Mask2SC.git
-       cd Mask2SC
-       conda env create -n mask2sc --file environment.yml
-       conda activate mask2sc
-       ```
+  ```bash
+  git clone https://github.com/ba-sketcvh/Mask2SC.git
+  cd Mask2SC
+  conda env create -n mask2sc --file environment.yml
+  conda activate mask2sc
+  ```
 
   **Method 2: Manual installation**
 
   In Bash:   
-       ```bash
-       conda create -n mask2sc
-       conda activate mask2sc
-       pip install numpy pandas geopandas imageio shapely rasterio affine matplotlib scanpy
-       conda install -c conda-forge squidpy
-       ```
+  ```bash
+  conda create -n mask2sc
+  conda activate mask2sc
+  pip install numpy pandas geopandas imageio shapely rasterio affine matplotlib scanpy
+  conda install -c conda-forge squidpy
+  ```
       
 ## 3. Image Registration 
-    - **IHC Channel Separation.groovy**: Extracts IHC channels as individual .tiff files 
-    - **Binary Mask Creation.groovy**: Creates a binary mask from annotations    
+- **IHC Channel Separation.groovy**: Extracts IHC channels as individual .tiff files 
+- **Binary Mask Creation.groovy**: Creates a binary mask from annotations    
     
 ## 4. Integration
-     - **complete_python_code.ipynb**: Complete Python code for integration and visualization of IHC images and H&E binary masks
+- **complete_python_code.ipynb**: Complete Python code for integration and visualization of IHC images and H&E binary masks
    
 

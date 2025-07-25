@@ -3,7 +3,9 @@
   <img src="https://github.com/user-attachments/assets/c0a01923-6ba4-4e3a-a2f1-6cd7ceec8d35" alt="STAR_AI_Template-01" width="500"/>
 </div>
 
-This includes all the code used in the manuscript 
+<br>
+
+This repository includes all the code used in the manuscript 
 **"Protocol for integrating external information with Xenium data at single-cell resolution"**, available [here]:(#) .
 
 The dataset used in the protocol can be found here: https://zenodo.org/records/15367950

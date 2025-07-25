@@ -7,7 +7,8 @@ The dataset used in the protocol can be found here: https://zenodo.org/records/1
 
 1. Environment Setup
     - **environment.yml**: YAML file for setting up Python packages
-    - Install conda and add conda to path
+    - **Install conda and add conda to path**
+      
       **Method 1: Automatic installation**
       ```bash
       git clone https://github.com/ba-sketcvh/Mask2SC.git

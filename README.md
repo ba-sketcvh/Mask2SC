@@ -8,6 +8,7 @@ The dataset used in the protocol can be found here: https://zenodo.org/records/1
 1. Environment Setup
     - **environment.yml**: YAML file for setting up Python packages
     - **Install conda and add conda to path**
+    - **Setup environment with either method**
       
       **Method 1: Automatic installation**
       ```bash

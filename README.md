@@ -5,7 +5,7 @@
 
 <br>
 
-# This repository includes all the code used in the manuscript **"Protocol for integrating external information with Xenium data at single-cell resolution"**, available [here]:(#) and [here] (#).
+# This repository includes all the code used in the manuscript **"Protocol for integrating external information with Xenium data at single-cell resolution"**, available [here](#) and [here](#).
 
 The dataset used in the protocol can be found [here](https://zenodo.org/records/15367950).
 

@@ -6,7 +6,7 @@
 <br>
 
 # This repository includes all the code used in the manuscript 
-# **"Protocol for integrating external information with Xenium data at single-cell resolution"**, available [here]:(#) .
+# **"Protocol for integrating external information with Xenium data at single-cell resolution"**, available [here]:(#) and [here] (#).
 
 The dataset used in the protocol can be found here: https://zenodo.org/records/15367950
 
@@ -16,7 +16,7 @@ The dataset used in the protocol can be found here: https://zenodo.org/records/1
 - **[Warpy](https://imagej.net/plugins/bdv/warpy/warpy)**: Tool for image registration and warping.
  
 ## 2. Setup of python environment
-- **environment.yml**: YAML file for setting up Python packages
+- **environment.yml**: file for setting up Python packages
 - **Install conda and add conda to path**
 - **Setup environment with either method**
       
@@ -39,12 +39,15 @@ The dataset used in the protocol can be found here: https://zenodo.org/records/1
   pip install numpy pandas geopandas imageio shapely rasterio affine matplotlib scanpy
   conda install -c conda-forge squidpy
   ```
-      
-## 3. Image Registration 
-- **IHC Channel Separation.groovy**: Extracts IHC channels as individual .tiff files 
-- **Binary Mask Creation.groovy**: Creates a binary mask from annotations    
+## 3. Image registration with Warpy
+- Steps are availlable in our [website](#).
+- More information on Warpy [website](https://imagej.net/plugins/bdv/warpy/warpy).
+
+## 4. Exportation of registered image
+- **IHC Channel Separation.groovy**: Extracts IHC channels as individual .tiff files in Qupath
+- **Binary Mask Creation.groovy**: Creates a binary mask from annotations in Qupath
     
-## 4. Integration
+## 5. Integration
 - **complete_python_code.ipynb**: Complete Python code for integration and visualization of IHC images and H&E binary masks
    
 

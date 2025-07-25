@@ -8,7 +8,7 @@
 # This repository includes all the code used in the manuscript 
 # **"Protocol for integrating external information with Xenium data at single-cell resolution"**, available [here]:(#) and [here] (#).
 
-The dataset used in the protocol can be found here: https://zenodo.org/records/15367950
+The dataset used in the protocol can be found [here](https://zenodo.org/records/15367950).
 
 ## 1. Installation of Qupath, Fiji, and Warpy.
 - **[QuPath](https://qupath.github.io/)**: Open-source software for digital pathology image analysis.

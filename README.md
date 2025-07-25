@@ -16,7 +16,7 @@ The dataset used in the protocol can be found [here](https://zenodo.org/records/
 - **[Warpy](https://imagej.net/plugins/bdv/warpy/warpy)**: Tool for image registration and warping.
  
 ## 2. Setup of python environment
-- **environment.yml**: file for setting up Python packages
+- **environment.yml**: file for setting up Python environment with conda
 - **Install conda and add conda to path**
 - **Setup environment with either method**
       
@@ -39,6 +39,7 @@ The dataset used in the protocol can be found [here](https://zenodo.org/records/
   pip install numpy pandas geopandas imageio shapely rasterio affine matplotlib scanpy
   conda install -c conda-forge squidpy
   ```
+  
 ## 3. Image registration with Warpy
 - Steps are availlable in our [website](#).
 - More information on Warpy [website](https://imagej.net/plugins/bdv/warpy/warpy).
@@ -46,7 +47,7 @@ The dataset used in the protocol can be found [here](https://zenodo.org/records/
 ## 4. Exportation of registered image
 - **IHC Channel Separation.groovy**: Extracts IHC channels as individual .tiff files in Qupath
 - **Binary Mask Creation.groovy**: Creates a binary mask from annotations in Qupath
-    
+
 ## 5. Integration
 - **complete_python_code.ipynb**: Complete Python code for integration and visualization of IHC images and H&E binary masks
    
